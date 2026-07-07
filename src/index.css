@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-matrix: "Silkscreen", cursive;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-kali-bg: #0a0d14;
+  --color-kali-card: #111622;
+  --color-kali-cyan: #00f0ff;
+  --color-kali-red: #ff2a2a;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.animate-scan {
+  animation: scanline 8s linear infinite;
+}
