@@ -204,6 +204,8 @@ useEffect(() => {
 
   // 2. Main Portfolio Landing View (Fades in perfectly after boot sequence)
   return (
+
+    
     <div className="min-h-screen bg-kali-bg text-slate-400 font-mono text-xs md:text-sm selection:bg-kali-cyan selection:text-kali-bg p-2 sm:p-4 md:p-8 relative animate-fade-in">
 
       {/* Nothing Tech Grid Matrix Background arrays */}
